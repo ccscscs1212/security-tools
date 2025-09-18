@@ -20,12 +20,10 @@
 git clone https://github.com/CCSCSCS1212/security-tools.git
 cd security-tools
 安装依赖
-bash
-复制代码
+
 pip install -r requirements.txt
 使用示例
-bash
-复制代码
+
 # 对指定目标执行端口扫描
 python security_tool.py -u http://example.com -m portscan
 
@@ -35,8 +33,7 @@ python security_tool.py -u http://example.com -m dirscan
 # 执行基础漏洞检测
 python security_tool.py -u http://example.com -m vulnscan
 📂 项目结构
-bash
-复制代码
+
 ├── security_tool.py     # 主程序
 ├── requirements.txt     # 依赖文件
 └── README.md            # 项目说明文档
