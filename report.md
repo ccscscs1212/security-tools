@@ -1,10 +1,9 @@
 ### report.md
-自动化安全工具 - 报告
-生成时间: 2025-09-18T12:00:00Z
+
 
 元数据
 json
-复制代码
+
 {
   "owner": "demo_user",
   "environment": "lab_env",
@@ -43,4 +42,5 @@ exec(user_input)
 password	length	entropy	verdict
 weak123	7	41.6	weak
 Passw0rd!	9	59.5	medium
+
 Qw!9eT$kLmNp	12	78.8	strong
